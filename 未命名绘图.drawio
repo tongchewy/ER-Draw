@@ -1,9 +1,15 @@
-<mxfile host="app.diagrams.net" modified="2023-04-11T06:41:13.343Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/110.0.0.0 Safari/537.36" version="21.1.5" etag="MsCajIHlVDN-WoVrxO2a" type="github">
+<mxfile host="app.diagrams.net" modified="2023-04-13T03:25:04.198Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/110.0.0.0 Safari/537.36" etag="h0wKjxSdN8suWyobLe0I" version="21.1.5" type="github">
   <diagram name="第 1 页" id="ZRmCv5PV6aarmLKB5haa">
-    <mxGraphModel>
+    <mxGraphModel dx="2074" dy="1074" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="ErXdo7OK-UVKG9JZovRo-1" value="游戏库" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="150" y="60" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="ErXdo7OK-UVKG9JZovRo-2" value="kafka广播" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="460" y="60" width="120" height="80" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
