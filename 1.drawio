@@ -1,9 +1,38 @@
-<mxfile host="app.diagrams.net" modified="2023-04-14T02:55:13.843Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/110.0.0.0 Safari/537.36" version="21.1.7" etag="N7WOBte2oLtwBqpzt638" type="github">
+<mxfile host="app.diagrams.net" modified="2023-04-14T02:59:15.249Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/110.0.0.0 Safari/537.36" etag="eTcf-x8OE5fePpUQTQmg" version="21.1.7" type="github">
   <diagram name="第 1 页" id="fuD2dJIFrwKVW4cfLhDA">
-    <mxGraphModel>
+    <mxGraphModel dx="2074" dy="1002" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="6JAVa26ZRBYkgXluDiaF-8" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="6JAVa26ZRBYkgXluDiaF-5" target="6JAVa26ZRBYkgXluDiaF-7">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="6JAVa26ZRBYkgXluDiaF-5" value="审核人员" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="120" y="70" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="6JAVa26ZRBYkgXluDiaF-6" value="隐私检测程序" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="580" y="70" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="6JAVa26ZRBYkgXluDiaF-10" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="6JAVa26ZRBYkgXluDiaF-7" target="6JAVa26ZRBYkgXluDiaF-9">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="6JAVa26ZRBYkgXluDiaF-11" value="人工手动上传到爱加密检测系统" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="6JAVa26ZRBYkgXluDiaF-10">
+          <mxGeometry x="-0.2" y="2" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="6JAVa26ZRBYkgXluDiaF-7" value="在DC审核后台获取新增/更新apk" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="120" y="250" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="6JAVa26ZRBYkgXluDiaF-13" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="6JAVa26ZRBYkgXluDiaF-9" target="6JAVa26ZRBYkgXluDiaF-12">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="6JAVa26ZRBYkgXluDiaF-9" value="在爱加密系统手动发起检测" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="120" y="390" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="6JAVa26ZRBYkgXluDiaF-12" value="是否通过检测" style="rhombus;whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="105" y="520" width="150" height="80" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
