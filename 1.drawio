@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2023-04-14T02:59:15.249Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/110.0.0.0 Safari/537.36" etag="eTcf-x8OE5fePpUQTQmg" version="21.1.7" type="github">
+<mxfile host="app.diagrams.net" modified="2023-04-14T03:21:41.712Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/110.0.0.0 Safari/537.36" etag="6Z7hm6r_3-VmXe3rsAvA" version="21.1.7" type="github">
   <diagram name="第 1 页" id="fuD2dJIFrwKVW4cfLhDA">
-    <mxGraphModel dx="2074" dy="1002" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="2901" dy="1002" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -8,30 +8,184 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="6JAVa26ZRBYkgXluDiaF-5" value="审核人员" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="120" y="70" width="120" height="80" as="geometry" />
+          <mxGeometry x="-203" y="70" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="6JAVa26ZRBYkgXluDiaF-39" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="6JAVa26ZRBYkgXluDiaF-6" target="6JAVa26ZRBYkgXluDiaF-38">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="6JAVa26ZRBYkgXluDiaF-6" value="隐私检测程序" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="580" y="70" width="120" height="80" as="geometry" />
+          <mxGeometry x="330" y="70" width="120" height="80" as="geometry" />
         </mxCell>
         <mxCell id="6JAVa26ZRBYkgXluDiaF-10" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="6JAVa26ZRBYkgXluDiaF-7" target="6JAVa26ZRBYkgXluDiaF-9">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="6JAVa26ZRBYkgXluDiaF-11" value="人工手动上传到爱加密检测系统" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="6JAVa26ZRBYkgXluDiaF-10">
+        <mxCell id="6JAVa26ZRBYkgXluDiaF-11" value="获取新增/更新apk" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="6JAVa26ZRBYkgXluDiaF-10">
           <mxGeometry x="-0.2" y="2" relative="1" as="geometry">
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="6JAVa26ZRBYkgXluDiaF-7" value="在DC审核后台获取新增/更新apk" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="120" y="250" width="120" height="60" as="geometry" />
+        <mxCell id="6JAVa26ZRBYkgXluDiaF-7" value="DC审核后台" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-203" y="190" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="6JAVa26ZRBYkgXluDiaF-13" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="6JAVa26ZRBYkgXluDiaF-9" target="6JAVa26ZRBYkgXluDiaF-12">
+        <mxCell id="6JAVa26ZRBYkgXluDiaF-13" value="检测结束" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="6JAVa26ZRBYkgXluDiaF-9" target="6JAVa26ZRBYkgXluDiaF-12">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="6JAVa26ZRBYkgXluDiaF-9" value="在爱加密系统手动发起检测" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="120" y="390" width="120" height="60" as="geometry" />
+        <mxCell id="6JAVa26ZRBYkgXluDiaF-9" value="人工手动上传发起检测，等待检测结果" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-203" y="300" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="6JAVa26ZRBYkgXluDiaF-12" value="是否通过检测" style="rhombus;whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
-          <mxGeometry x="105" y="520" width="150" height="80" as="geometry" />
+        <mxCell id="6JAVa26ZRBYkgXluDiaF-15" value="true" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="6JAVa26ZRBYkgXluDiaF-16">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="-143" y="895" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="6JAVa26ZRBYkgXluDiaF-18" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.96;exitY=0.488;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="6JAVa26ZRBYkgXluDiaF-12" target="6JAVa26ZRBYkgXluDiaF-17">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="6JAVa26ZRBYkgXluDiaF-19" value="false" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="6JAVa26ZRBYkgXluDiaF-18">
+          <mxGeometry x="-0.3053" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="6JAVa26ZRBYkgXluDiaF-51" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="6JAVa26ZRBYkgXluDiaF-12" target="6JAVa26ZRBYkgXluDiaF-50">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="6JAVa26ZRBYkgXluDiaF-12" value="是否新增APK" style="rhombus;whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="-218" y="410" width="150" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="6JAVa26ZRBYkgXluDiaF-25" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="6JAVa26ZRBYkgXluDiaF-17" target="6JAVa26ZRBYkgXluDiaF-24">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="6JAVa26ZRBYkgXluDiaF-17" value="记录更新游戏检测结果，不发送报告" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="-13" y="530" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="6JAVa26ZRBYkgXluDiaF-30" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="6JAVa26ZRBYkgXluDiaF-16" target="6JAVa26ZRBYkgXluDiaF-29">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="6JAVa26ZRBYkgXluDiaF-31" value="false" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="6JAVa26ZRBYkgXluDiaF-30">
+          <mxGeometry x="-0.241" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="6JAVa26ZRBYkgXluDiaF-16" value="是否通过检测" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-218" y="760" width="150" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="6JAVa26ZRBYkgXluDiaF-24" value="更新apk流程结束" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-13" y="660" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="6JAVa26ZRBYkgXluDiaF-28" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="6JAVa26ZRBYkgXluDiaF-26" target="6JAVa26ZRBYkgXluDiaF-27">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="6JAVa26ZRBYkgXluDiaF-26" value="发送隐私审核通过通知" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-203" y="895" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="6JAVa26ZRBYkgXluDiaF-27" value="新增apk流程结束" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-203" y="1015" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="6JAVa26ZRBYkgXluDiaF-35" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="6JAVa26ZRBYkgXluDiaF-29" target="6JAVa26ZRBYkgXluDiaF-34">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="6JAVa26ZRBYkgXluDiaF-29" value="发送隐私审核不通过通知" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-553" y="770" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="6JAVa26ZRBYkgXluDiaF-36" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="6JAVa26ZRBYkgXluDiaF-34" target="6JAVa26ZRBYkgXluDiaF-7">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="-493" y="220" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="6JAVa26ZRBYkgXluDiaF-37" value="整改后重新提包" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="6JAVa26ZRBYkgXluDiaF-36">
+          <mxGeometry x="-0.0957" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="6JAVa26ZRBYkgXluDiaF-34" value="联系开发者整改" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-553" y="307.5" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="6JAVa26ZRBYkgXluDiaF-42" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="6JAVa26ZRBYkgXluDiaF-38" target="6JAVa26ZRBYkgXluDiaF-41">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="6JAVa26ZRBYkgXluDiaF-43" value="程序通过api每小时轮询查询游戏库可下载的apk信息" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="6JAVa26ZRBYkgXluDiaF-42">
+          <mxGeometry x="-0.0286" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="6JAVa26ZRBYkgXluDiaF-38" value="游戏库" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="330" y="220" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="6JAVa26ZRBYkgXluDiaF-45" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="6JAVa26ZRBYkgXluDiaF-41" target="6JAVa26ZRBYkgXluDiaF-44">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="6JAVa26ZRBYkgXluDiaF-46" value="通过app_id、file_md5" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="6JAVa26ZRBYkgXluDiaF-45">
+          <mxGeometry x="-0.175" y="-1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="6JAVa26ZRBYkgXluDiaF-41" value="比对数据库中已存储的app信息" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="330" y="350" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="6JAVa26ZRBYkgXluDiaF-48" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="6JAVa26ZRBYkgXluDiaF-44" target="6JAVa26ZRBYkgXluDiaF-47">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="6JAVa26ZRBYkgXluDiaF-49" value="true" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="6JAVa26ZRBYkgXluDiaF-48">
+          <mxGeometry x="-0.1059" y="4" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="6JAVa26ZRBYkgXluDiaF-64" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="6JAVa26ZRBYkgXluDiaF-44" target="6JAVa26ZRBYkgXluDiaF-63">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="6JAVa26ZRBYkgXluDiaF-65" value="false" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="6JAVa26ZRBYkgXluDiaF-64">
+          <mxGeometry x="-0.2842" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="6JAVa26ZRBYkgXluDiaF-44" value="是否有新增/更新apk" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="315" y="490" width="150" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="6JAVa26ZRBYkgXluDiaF-72" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="6JAVa26ZRBYkgXluDiaF-47" target="6JAVa26ZRBYkgXluDiaF-71">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="6JAVa26ZRBYkgXluDiaF-47" value="通过异步api发起检测" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="330" y="645" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="6JAVa26ZRBYkgXluDiaF-52" value="true" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="6JAVa26ZRBYkgXluDiaF-50" target="6JAVa26ZRBYkgXluDiaF-16">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="6JAVa26ZRBYkgXluDiaF-54" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="6JAVa26ZRBYkgXluDiaF-50" target="6JAVa26ZRBYkgXluDiaF-53">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="6JAVa26ZRBYkgXluDiaF-57" value="false" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="6JAVa26ZRBYkgXluDiaF-54">
+          <mxGeometry x="-0.1158" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="6JAVa26ZRBYkgXluDiaF-50" value="检测是否成功" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-218" y="540" width="150" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="6JAVa26ZRBYkgXluDiaF-58" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="6JAVa26ZRBYkgXluDiaF-53" target="6JAVa26ZRBYkgXluDiaF-16">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="-373" y="710" />
+              <mxPoint x="-143" y="710" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="6JAVa26ZRBYkgXluDiaF-59" value="反馈检测结果" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="6JAVa26ZRBYkgXluDiaF-58">
+          <mxGeometry x="-0.1325" y="-1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="6JAVa26ZRBYkgXluDiaF-53" value="提交给我人工检测" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-433" y="545" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="6JAVa26ZRBYkgXluDiaF-63" value="定时任务结束" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="580" y="635" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="6JAVa26ZRBYkgXluDiaF-71" value="检测是否成功" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="315" y="760" width="150" height="70" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
